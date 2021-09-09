@@ -1,0 +1,5 @@
+myenv
+.vscode
+app.py
+logged_data.csv
+.env
