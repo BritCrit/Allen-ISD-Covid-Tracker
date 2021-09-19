@@ -139,9 +139,6 @@ cards = dbc.CardGroup(
             dbc.CardBody(
                 [
                     html.H3(f"{students_case_count} Active Student Cases", className="card-title"),
-                    # html.P( "Click to view specific school trend", className="card-text", ), dbc.Button( "Click
-                    # here",id='school_chart_button', color="primary", className="btn btn-primary disabled",
-                    # n_clicks=0 ),
                 ]
             )
         ),
@@ -149,13 +146,6 @@ cards = dbc.CardGroup(
             dbc.CardBody(
                 [
                     html.H3(f"{per_active_cases}% of Current Enrollment", className="card-title"),
-                    # html.P(
-                    #     "Click to view per active case by school.",
-                    #     className="card-text",
-                    # ),
-                    # dbc.Button(
-                    #     "Click here", color="primary", className="btn btn-primary disabled"
-                    # ),
                 ]
             )
         ),
@@ -163,13 +153,6 @@ cards = dbc.CardGroup(
             dbc.CardBody(
                 [
                     html.H3(f"{staff_case_count} Active Staff Cases", className="card-title"),
-                    # html.P(
-                    #     "Click to view staff by school",
-                    #     className="card-text",
-                    # ),
-                    # dbc.Button(
-                    #     "Click here", color="primary", className="btn btn-primary disabled"
-                    # ),
                 ]
             )
         ),
